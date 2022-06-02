@@ -1,5 +1,6 @@
-public class Main {
+package src;
 
+public class Main {
     public static void main(String[] args) {
         int studentAge = 15;
         double studentGPA = 3.45;
@@ -13,5 +14,4 @@ public class Main {
         System.out.println(studentLastInitial);
         System.out.println(hasPerfectAttendance);
     }
-
 }
