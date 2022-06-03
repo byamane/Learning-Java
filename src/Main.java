@@ -70,6 +70,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        Triangle triangleA = new Triangle(15, 8, 15, 8, 17);
+        Triangle triangleB = new Triangle(3, 2.598, 3, 3,3);
+
         calculateTotalMealPrice(15, .2, .08);
         System.out.println("Please input the base of the triangle (in inches).");
         double base = input.nextDouble();
