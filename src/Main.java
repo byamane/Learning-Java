@@ -4,11 +4,15 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-
-        System.out.println("Let's calculate the area of a triangle");
-
+    public static void announceDeveloperTeaTime() {
+        System.out.println("Waiting for developer tea time...");
+        System.out.println("Type in a random word and press Enter to start developer tea time");
         Scanner input = new Scanner(System.in);
+
+        input.next();
+        System.out.println("It's developer tea time!");
+    }
+    public static void main(String[] args) {
 
         System.out.println("Please input the base of the triangle (in inches).");
         double base = input.nextDouble();
@@ -136,4 +140,5 @@ public class Main {
         System.out.println(studentFirstName);
         System.out.println(studentLastName);
     }
+
 }
