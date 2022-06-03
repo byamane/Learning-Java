@@ -2,10 +2,16 @@ package src;
 
 public class Main {
 
+
+public class Main {
     public static void main(String[] args) {
         int studentAge = 15;
         double studentGPA = 3.45;
         boolean hasPerfectAttendance = true;
+      
+        String studentFirstName = "Brandon";
+        String studentLastName = "Yamane";
+
 
         String studentFirstName = "Kayla";
         String studentLastName = "Hammon";
@@ -20,5 +26,9 @@ public class Main {
         System.out.println(studentLastName);
         System.out.println(studentFirstInitial);
         System.out.println(studentLastInitial);
+        System.out.println(hasPerfectAttendance);
+
+        System.out.println(studentFirstName);
+        System.out.println(studentLastName);
     }
 }
