@@ -5,6 +5,13 @@ public class Main {
 
 public class Main {
     public static void main(String[] args) {
+
+        double studentGPA = 3.53;
+        String studentFirstName = "Brandon";
+        String studentLastName = "Yamane";
+
+        System.out.println(studentFirstName + " " + studentLastName + " has a GPA of: " + studentGPA);
+
         int studentAge = 15;
         double studentGPA = 3.45;
         boolean hasPerfectAttendance = true;
