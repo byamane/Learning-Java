@@ -1,5 +1,15 @@
 package src;
 
+public class Main {
+
+    public static void calculateTotalMealPrice(double listedMealPrice, 
+    double tipRate, 
+    double taxRate) {
+        double tip = tipRate * listedMealPrice;
+        double tax = taxRate * listedMealPrice;
+        double result = listedMealPrice + tip + tax;
+        System.out.println("Your total meal price is " + result);
+
 import java.util.Scanner;
 
 public class Main {
@@ -17,8 +27,9 @@ public class Main {
         input.next();
         System.out.println("It's developer tea time!");
     }
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        calculateTotalMealPrice(15, .2, .08);
         System.out.println("Please input the base of the triangle (in inches).");
         double base = input.nextDouble();
         String question = "What is the color of Clifford the big dog?";
