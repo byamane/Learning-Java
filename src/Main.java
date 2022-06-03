@@ -1,5 +1,14 @@
 package src;
 
+
+public class Main {
+
+    public static void main(String[] args) {
+        double result = Math.pow(2, 5);
+        System.out.println(result);
+
+        Math.pow(2, 2);
+
 public class Main {
 
     public static double calculateTotalMealPrice(double listedMealPrice,
