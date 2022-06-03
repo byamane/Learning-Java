@@ -12,6 +12,11 @@ public class Main {
         input.next();
         System.out.println("It's developer tea time!");
     }
+
+
+        input.next();
+        System.out.println("It's developer tea time!");
+    }
     public static void main(String[] args) {
 
         System.out.println("Please input the base of the triangle (in inches).");
@@ -66,6 +71,7 @@ public class Main {
         }
 
 public class Main {
+  
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
