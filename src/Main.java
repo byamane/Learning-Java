@@ -10,6 +10,8 @@ public class Main {
         String choiceTwo = "jupiter";
         String choiceThree = "saturn";
 
+        String correctAnswer = choiceThree;
+
         String question = "What is the color of Clifford the big dog?";
         String choiceOne = "Blue";
         String choiceTwo = "Red";
@@ -29,13 +31,12 @@ public class Main {
         // Retrieve the user's input
         String input = scanner.next();
 
-        // If the user's input matches the correctAnswer...
-        // then the user is correct and we want to print out a congrats message to the user.
         if(correctAnswer.equals(input.toLowerCase())) {
             System.out.println("Congrats! That's the correct answer");
         } else {
             System.out.println("You are incorrect. The correct answer is " + correctAnswer);
         }
+    }
       
         // Write a print statement giving the answer choices
         System.out.println(choiceOne + ", " + choiceTwo + ", " + choiceThree);
@@ -52,7 +53,6 @@ public class Main {
         } else {
             System.out.println("Incorrect! The answer was Red!");
         }
-
 
 public class Main {
     public static void main(String[] args) {
