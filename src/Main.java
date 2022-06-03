@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class Main {
@@ -7,5 +9,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int inputtedNum = scanner.nextInt();
+        
+        if (inputtedNum < 5) {
+            // Print out "Enjoy the good luck a friend brings you"
+            System.out.println("Enjoy the good luck a friend brings you");
+        } else {
+            // Print out "Your shoe selection will make you happy today"
+            System.out.println("Your shoe selection will make you happy today");
+        }
     }
 }
